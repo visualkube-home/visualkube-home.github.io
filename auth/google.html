@@ -16,7 +16,19 @@
 
 <body>
   <div>
-    <br/>
+    <br/><br/><br/><br/><br/>
+    <button onClick="copyCodeToClipboard()">Copy Code</button>
   </div>
+
+  <script type="text/javascript">
+    function copyCodeToClipboard() {
+      const params = new URLSearchParams(window.location.search);
+      navigator.clipboard.writeText(params.get("code")).then(() => {
+        alert("Code was copied to clipboard");
+      }).catch(() => {
+        alert("Something went wrong.");
+      });
+    }
+  </script>
 </body>
 </html>
