@@ -1,11 +1,11 @@
 {
-    "name": "vkhome",
-    "short_name": "vkhome",
+    "name": "Visualkube",
+    "short_name": "Visualkube",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Visual Kube Home",
+    "description": "Visualkube website",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
